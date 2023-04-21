@@ -3,7 +3,10 @@ import React from 'react';
 const Footer = () => {
   
   return (<div className="footer">
-    <div className="hint-text">Showing <b>Fotter</b> entries</div>
+    <div className="hint-text">
+      <a href='https://github.com/rocktimsaikia/anime-chan'>AnimeChan</a>
+      <p>- thanks to -</p>
+      <a href='https://github.com/rocktimsaikia'>Rocktim</a></div>
   </div>);
 }
 
